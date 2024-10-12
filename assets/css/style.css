@@ -5,7 +5,6 @@
 }
 
 #products aside, #products_container{
-    border:1px solid red;
 }
 
 #products_container{
@@ -27,4 +26,28 @@
 
 .product:hover{
     border:1px solid red;
+}
+
+#category_list{
+    list-style: none;
+}
+#category_list li{
+    padding:1rem;
+    background-color:orange;
+    color:#fff;
+    border:1px solid rgb(222, 145, 2);
+}
+
+#category_list li:hover{
+    background-color:rgb(222, 145, 2);
+}
+
+#category_list li a{
+    display:block;
+    color:#000000;
+    text-decoration: none;
+}
+
+body{
+    margin:0;
 }
