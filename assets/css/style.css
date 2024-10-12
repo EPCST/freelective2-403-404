@@ -1,0 +1,30 @@
+#products{
+    display:grid;
+    grid-template-columns: 30vw auto;
+    gap:1rem;
+}
+
+#products aside, #products_container{
+    border:1px solid red;
+}
+
+#products_container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:1rem;
+}
+
+#products_container img{
+    width:100%;
+}
+
+.product{
+    border:1px solid #ccc;
+    padding:1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.product:hover{
+    border:1px solid red;
+}
